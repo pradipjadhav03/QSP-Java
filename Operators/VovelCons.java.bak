@@ -1,0 +1,9 @@
+class VovelCons 
+{
+	public static void main(String[] args) 
+	{
+		char ch = 'a';
+		 boolean b = (ch>='a' && ch<='z');
+		System.out.println(b=='a'||b=='e'||b=='i'||b=='o'||b=='u'?"Vovel":"Consonent"); 
+	}
+}

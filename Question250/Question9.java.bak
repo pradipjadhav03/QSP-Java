@@ -1,0 +1,9 @@
+//WAP to create a method to return Positive Numbers
+
+class Question9 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

@@ -1,0 +1,14 @@
+class P2 
+{
+	static int  a = 20;
+
+	static
+	{
+		System.out.println("SB-1");
+	}
+
+	public static void main(String[] args) 
+	{
+		System.out.println(a);
+	}
+}

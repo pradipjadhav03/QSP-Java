@@ -1,0 +1,9 @@
+class PositiveNegative
+{
+	public static void main(String[] args) 
+	{
+		int a = -5;
+		String b = a>=0?"No is Positive":"No is Negative";
+		System.out.println(b);
+	}
+}

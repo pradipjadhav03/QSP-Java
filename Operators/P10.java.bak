@@ -1,0 +1,12 @@
+class P10 
+{
+	public static void main(String[] args) 
+	{
+		int a = 25;
+		int b = ++a - a + a++ + a - a;
+		int c = b++ - a + ++a - B;
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+	}
+}

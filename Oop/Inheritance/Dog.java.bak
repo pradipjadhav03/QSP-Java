@@ -1,0 +1,14 @@
+class Dog extends Animal 
+{
+	public void loyal()
+	{
+		System.out.println("All dogs are loyal to the owners");
+	}
+	public static void main(String [] args)
+	{
+		Dog d = new Dog ();
+		d.loyal();
+		d.sound();
+		d.aggression();
+	}
+}

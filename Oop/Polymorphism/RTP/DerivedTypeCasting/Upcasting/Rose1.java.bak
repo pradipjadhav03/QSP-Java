@@ -1,0 +1,14 @@
+class Rose1 
+{
+	String color = "Red";
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Main () Rose class");
+		Rose1 r = new Rose1();
+		System.out.println(r.color);
+
+		Flower1 f = r;
+		System.out.println(f.color);
+	}
+}

@@ -1,0 +1,25 @@
+//print even values present inside an Array
+import java.util.Scanner;
+class A2 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		int size = sc.nextInt();
+		int [] ab = new int[size];
+
+		for (int i=0;i < ab.length ;i++ )
+		{
+			ab[i] = sc.nextInt();
+
+		}
+		for (int j=0;j < ab.length ;j++ )
+		{
+			if (ab[j]%2!=0)
+			{
+				System.out.println(ab[j] + " is a odd number");
+			}
+
+		}
+	}
+}

@@ -1,0 +1,9 @@
+class Checkno 
+{
+	public static void main(String[] args) 
+	{
+		int a = 45;
+		String x = a<50?"No is < 50":"No is > 50";
+		System.out.println(x);
+	}
+}

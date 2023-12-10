@@ -1,0 +1,9 @@
+class Univercity 
+{
+	public static void main(String[] args) 
+	{
+		Student Chaitanya = new Student(7447448173L);
+		
+		System.out.println(Chaitanya.getContactNo());
+	}
+}

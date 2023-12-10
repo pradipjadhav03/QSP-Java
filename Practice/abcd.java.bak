@@ -1,0 +1,9 @@
+class abcd
+{
+	int a = 10;
+	public static void main(String[] args) 
+	{
+		abc a = new abc();
+		System.out.println(a.a);
+	}
+}

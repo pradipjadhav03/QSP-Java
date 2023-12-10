@@ -1,0 +1,4 @@
+class Flower 
+{
+	String color;
+}

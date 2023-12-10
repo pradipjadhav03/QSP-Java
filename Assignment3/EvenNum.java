@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class EvenNum 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scanner = new Scanner(System.in);
+		int a = 1;
+		int n =scanner.nextInt();
+		
+		while (a<=n)
+		{
+			if (a%2==0)
+			{
+				System.out.println(a+ " Is a Even Number");
+			}
+			a++;
+		}
+
+	}
+}

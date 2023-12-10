@@ -1,0 +1,15 @@
+class Student 
+{
+	private long contactNo;
+	
+	Student(long contactNo)
+	{
+		this.contactNo = contactNo;
+	}
+
+	public long ContactNo()
+	{
+		return this.contactNo;
+	}
+	
+}
